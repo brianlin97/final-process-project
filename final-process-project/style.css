@@ -1,9 +1,19 @@
 body {
-  background-color: #FAFAFA;
+  background-color: #fcc61b;
+  color: white;
+  font-family: "objektiv-mk1";
 }
 
 #wrapper {
   text-align: center;
+}
+
+#title {
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+
 }
 
 #myAudio {
@@ -55,7 +65,7 @@ and (max-device-width : 1024px)  {
   }
 
   .fa-forward {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #next {
