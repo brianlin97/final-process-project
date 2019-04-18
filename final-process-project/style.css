@@ -24,7 +24,7 @@ body {
 
 #next{
   position: relative;
-  top: 50px;
+  top: 30vh;
   display:inline-block;
   padding:0.8em 1.5em;
   margin:0 0.1em 0.1em 0;
@@ -33,18 +33,24 @@ body {
   box-sizing: border-box;
   text-decoration:none;
   font-weight:300;
-  color:#2B2B2B;
+  color:#343434;
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
   text-align:center;
-  background-color: #CFCFCF;
+  background-color: #FDFDFD;
   transition: all 0.2s;
 }
 #next:hover{
-  border-color: #575757;
+  background-color: #989898;
 }
 
 .fa-forward {
   font-size: 2rem;
+}
+
+.plyr {
+  position: relative;
+  top: 20vh;
+  max-width: 50%;
 }
 
 @media only screen
@@ -56,11 +62,11 @@ and (max-device-width : 1024px)  {
 
   #number {
     position: relative;
-    top:25vh;
+    top:20vh;
   }
   #myAudio {
     width: 50%;
-    top: 30vh;
+    top: 40vh;
     font-size: 10rem;
   }
 
@@ -69,7 +75,7 @@ and (max-device-width : 1024px)  {
   }
 
   #next {
-    top: 40vh;
+    top: 30vh;
   }
 
 }
